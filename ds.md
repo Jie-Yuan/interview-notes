@@ -8,6 +8,12 @@
 # Hash Table:
 * chaining, linear and quadratic probing
 
+# Queues:
+* BFS
+
+# Stacks:
+* DFS
+
 # Trees:
 * complete bin: every level full except last is left to right
 * full bin: zero or two
@@ -20,3 +26,9 @@
 
 # Heaps:
 * build from list: perc down from middle to root aka all nodes with children
+
+# AVL:
+TODO
+
+# Red-Black:
+TODO
