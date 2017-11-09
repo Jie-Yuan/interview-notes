@@ -15,9 +15,9 @@
 * DFS
 
 ## Trees:
-* complete bin: every level full except last is left to right
-* full bin: zero or two
-* perfect bin: full & complete
+* **complete bin**: every level full except last is left to right
+* **full bin**: zero or two
+* **perfect bin**: full & complete
 * inorder trav = LPR -> order refers to P
 
 ## Tries:

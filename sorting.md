@@ -6,7 +6,7 @@ Bubble    |`O(n**2)`  |`O(n)`     |`O(n**2)`  |`O(1)`|X       |X
 Selection |`O(n**2)`  |`O(n**2)`  |`O(n**2)`  |`O(1)`|        |
 Insertion |`O(n**2)`  |`O(n)`     |`O(n**2)`  |`O(1)`|X       |X
 Shell     |`O(n**2)`  |`O(nlogn)` |gap variant|`O(1)`|        |X
-Heap      |`O(nlogn)` |`O(n)`     |`O(nlogn)` |`O(1)`|        |
+Heap      |`O(nlogn)` |`O(nlogn)` |`O(nlogn)` |`O(1)`|        |
 Merge     |`O(nlogn)` |`O(nlogn)` |`O(nlogn)` |`O(n)`|X       |
 Quick     |`O(n**2)`  |`O(nlogn)` |`O(nlogn)` |`O(n)`|        |
 Tim       |`O(nlogn)` |`O(n)`     |`O(nlogn)` |`O(n)`|X       |X
@@ -29,9 +29,9 @@ What is comparison based sort lower bound = `O(nlogn)`
 * elements are inserted, **via shifts**, into the sorted section
 * low overhead
 * complexity is `O(n + f(n))` where `f(n)` is the number of inversions.
-`f(n) = O(n)` when the list is partially sorted, therefore, if we know the
-data is **always partially sorted**, insertion is the best sort hands down
-(`O(n)` time and `0(1)` aux space)
+`f(n) = O(n)` when the list is nearly sorted, therefore, if we know the
+data is **always nearly sorted**, insertion is the best sort hands down
+(`O(n)` time and `0(1)` aux space) -> [geeks for geeks article][2]
 
 ## Shell:
 * gap sequence defined, insertion sorts which partially sorts list before
@@ -65,3 +65,4 @@ significant fig
 
 
 [1]: https://www.toptal.com/developers/sorting-algorithms/
+[2]: http://www.geeksforgeeks.org/time-complexity-insertion-sort-inversions/
