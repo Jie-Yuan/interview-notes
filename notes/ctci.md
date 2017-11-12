@@ -7,6 +7,7 @@
 * bit vectors are great!
 * think KiB not KB
 * input/output verification
+* matrix binary search -> mind blown
 
 
 [1]: https://en.wikipedia.org/wiki/Merge_algorithm#K-way_merging
