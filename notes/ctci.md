@@ -14,5 +14,12 @@ insertion
 * rephrase problem in own words -> what does it really mean to be a peak ->
 max of 3
 
+## Chapter 8 (Recursion and DP):
+* think fib example -> recursive, memo, bottom up memo
+* modified bin search is great!
+* think through each approach, once you know it's a recursion problem, i.e.
+can i do bottom up approach i.e. base case and build, top down or half and
+half? now how do i improve -> add memo or even memo bottom up
+
 
 [1]: https://en.wikipedia.org/wiki/Merge_algorithm#K-way_merging
