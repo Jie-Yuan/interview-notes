@@ -19,6 +19,7 @@
 come after the node itself -> **finishing times**:
   1. compute finishing times
   2. return nodes in descending order of finishing times
+* there is a non-dfs approach -> [kahn's algo][2]
 
 ## SCCs:
 * a single strongly connected component: maximal subset of vertices such
@@ -52,3 +53,4 @@ and v -> u i.e. **all vertices in the subset are reachable from each other**:
 
 
 [1]: https://cs.stackexchange.com/a/52082/79876
+[2]: https://en.wikipedia.org/wiki/Topological_sorting#Kahn.27s_algorithm

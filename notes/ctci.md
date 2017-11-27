@@ -20,6 +20,10 @@ max of 3
 * think through each approach, once you know it's a recursion problem, i.e.
 can i do bottom up approach i.e. base case and build, top down or half and
 half? now how do i improve -> add memo or even memo bottom up
+* definitely need more practice on this topic
+
+## Chapter 4 (Trees and Graphs):
+* kahn's algo -> topo.sort
 
 
 [1]: https://en.wikipedia.org/wiki/Merge_algorithm#K-way_merging
