@@ -19,6 +19,7 @@
 * **full bin**: zero or two
 * **perfect bin**: full & complete
 * inorder trav = LPR -> order refers to P
+* deletion in bst -> 3 case -> 0, 1, and 2 children (succesor)
 
 ## Tries:
 * prefix trees

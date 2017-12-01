@@ -24,6 +24,7 @@ half? now how do i improve -> add memo or even memo bottom up
 
 ## Chapter 4 (Trees and Graphs):
 * kahn's algo -> topo.sort
+* bst deletion -> 3 cases (succesor)
 
 
 [1]: https://en.wikipedia.org/wiki/Merge_algorithm#K-way_merging
